@@ -14,11 +14,7 @@
 
 </div>
 
-<p align="center">
-  <img src="images/banner.png" alt="Ultimate ML + GenAI Roadmap Banner" style="max-width:100%; height:auto;" />
-</p>
-
-<p align="center"><em>90‑day roadmap: Beginner → Intermediate → Deployment</em></p>
+![Banner](Images/Gemini_Generated_Image_xwk8jvxwk8jvxwk8.png)
 
 ---
 
