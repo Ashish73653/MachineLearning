@@ -1,3 +1,5 @@
+import warnings
+
 # Conditionals
 if True:
     print("This is true")
@@ -21,38 +23,50 @@ count = 0
 while count < 5:
     print("Count:", count)
     count += 1
+
 # For loop
 fruits = ["apple", "banana", "cherry"]
 for fruit in fruits:
     print("Fruit:", fruit)
+
 # Looping through a range
 for i in range(3):
     print("Number:", i)
+
 # Nested loops
 for i in range(2):
     for j in range(2):
         print("i:", i, "j:", j)
+
 # Loop control statements
 # Break statement
 for i in range(5):
     if i == 3:
         break
     print("Break example, i:", i)
+
 # Continue statement
 for i in range(5):
     if i == 2:
         continue
     print("Continue example, i:", i)
-# Pass statement
-for i in range(5):
-    if i == 4:
-        pass  # Placeholder for future code
-    print("Pass example, i:", i)
+
+# # Pass statement with reminder
+
+# for i in range(5):
+#   if i == 4:
+#     # TODO: implement real behavior here — reminder saved to file and warns at runtime
+#     warnings.warn("Reminder: implement behavior for i == 4", UserWarning, stacklevel=2)
+#     with open("TODO_reminders.txt", "a", encoding="utf-8") as f:
+#       f.write("Reminder: implement behavior for i == 4\n")
+#   print("Pass example, i:", i)
+
 # Using else with loops
 for i in range(3):
     print("Loop with else, i:", i)
 else:
     print("Loop completed without break")
+
 # Demonstration of set operations in Python
 # unordered collection of unique elements
 fruits = {"apple", "banana", "cherry"}
